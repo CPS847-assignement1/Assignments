@@ -34,7 +34,7 @@ BOT_ID = client.api_call("auth.test")['user_id']
 
 
 
-# handling Message Events
+# handling Message Events this is a test text
 @slack_event_adapter.on('message')
 def message(payload):
     print(payload)
