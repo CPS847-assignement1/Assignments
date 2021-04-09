@@ -1,6 +1,6 @@
 import unittest
 
-import sumFunction
+from sumFunction import mySum, divide,secondItemInList
 
 
 class TestSum(unittest.TestCase):
