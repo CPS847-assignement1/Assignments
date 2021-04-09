@@ -1,6 +1,6 @@
 import unittest
 
-import sumFunction*
+import sumFunction
 
 
 class TestSum(unittest.TestCase):
