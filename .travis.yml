@@ -14,9 +14,8 @@ deploy:
   secret_access_key:
     secure: "Encypted <secret-access-key>=placeholder"
   region: "us-east-1"
-  app: index.html
+  app: "index"
+  env: "project-dev"
+  bucket_name: "elasticbeanstalk-us-east-1-595465365205"
   on:
-    repo: CPS847-assignement1/Assignments
-    branches:    
-      only:      
-        - master 
+    branch: master 
