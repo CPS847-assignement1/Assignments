@@ -7,3 +7,11 @@ script:
  - coverage run -m unittest discover
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "Encrypted <access-key-id>=AKIASZU7QYRDH7JJ4FS7"
+  secret_access_key:
+    secure: "Encypted <secret-access-key>=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"
+  region: "us-east-1"
+  app: index.html
