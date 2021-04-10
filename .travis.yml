@@ -10,9 +10,9 @@ after_success:
 deploy:
   provider: elasticbeanstalk
   access_key_id:
-    secure: "Encrypted <access-key-id>=AKIASZU7QYRDH7JJ4FS7"
+    secure: "Encrypted <access-key-id>=placeholder"
   secret_access_key:
-    secure: "Encypted <secret-access-key>=KEgmFNQaBoMPzIpKOYHPcZqyYE6Pw9i6o9eb0tpu"
+    secure: "Encypted <secret-access-key>=placeholder"
   region: "us-east-1"
   app: index.html
   on:
