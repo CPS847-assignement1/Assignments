@@ -15,3 +15,8 @@ deploy:
     secure: "Encypted <secret-access-key>=KEgmFNQaBoMPzIpKOYHPcZqyYE6Pw9i6o9eb0tpu"
   region: "us-east-1"
   app: index.html
+  on:
+    repo: CPS847-assignement1/Assignments
+    branches:    
+      only:      
+        - master 
